@@ -1,0 +1,28 @@
+### Listar os usuários
+GET https://localhost:5001/api/funcionario/listar
+
+### Buscar um usuário
+GET https://localhost:5001/api/funcionario/buscar/diogo
+
+### Cadastrar um usuário
+POST https://localhost:5001/api/funcionario/cadastrar
+Content-Type: application/json
+
+{
+    "nome" : "diogo",
+    "cpf" : 12345,
+    "datanascimento": "2022-08-03"
+}
+
+### Excluir um usuário
+POST https://localhost:5001/api/funcionario/excluir/12345
+
+### Editar um usuário
+POST https://localhost:5001/api/funcionario/editar/12345
+Content-Type: application/json
+
+{
+    "nome" : "Euler",
+    "cpf" : 12345,
+    "datanascimento": "2022-08-03"
+}
