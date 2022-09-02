@@ -1,25 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\enric\\DesenvolvimentoVisualQuinta\\API\\API.csproj": {}
+    "C:\\Users\\16667474671\\DesenvolvimentoSoftwareVisual\\CRUD\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\enric\\DesenvolvimentoVisualQuinta\\API\\API.csproj": {
+    "C:\\Users\\16667474671\\DesenvolvimentoSoftwareVisual\\CRUD\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\enric\\DesenvolvimentoVisualQuinta\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\16667474671\\DesenvolvimentoSoftwareVisual\\CRUD\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\enric\\DesenvolvimentoVisualQuinta\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\enric\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\enric\\DesenvolvimentoVisualQuinta\\API\\obj\\",
+        "projectPath": "C:\\Users\\16667474671\\DesenvolvimentoSoftwareVisual\\CRUD\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\16667474671\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\16667474671\\DesenvolvimentoSoftwareVisual\\CRUD\\API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\enric\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\16667474671\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +46,16 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -61,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

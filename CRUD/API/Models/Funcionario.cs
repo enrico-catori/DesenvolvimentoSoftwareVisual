@@ -8,6 +8,7 @@ namespace API.Models
         {
             CriadoEm = DateTime.Now;
         }
+        public int id { get; set; }
         public string Nome { get; set; }
         public int Cpf { get; set; }
         public DateTime CriadoEm { get; set; }        
